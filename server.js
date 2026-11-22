@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const { Server } = require('socket.io');
 
 const bank = require('./data/bonus-content');
-const extra = require('./data/extra-content');
+const extra = require('./data/bonus-content');
 const media = require('./data/media');
 const bonus = require('./data/bonus-content');
 const pixelPool = require('./data/pixel-pool');
